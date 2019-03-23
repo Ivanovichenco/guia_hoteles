@@ -16,5 +16,8 @@
   "homepage": "https://bitbucket.org/ivanadolfo123/guia_hoteles_neiva#readme",
   "devDependencies": {
     "lite-server": "^2.4.0"
+  },
+  "dependencies": {
+    "boostrap": "^2.0.0"
   }
 }
