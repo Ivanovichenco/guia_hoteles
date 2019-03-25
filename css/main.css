@@ -1,0 +1,30 @@
+.jumbotron {
+    text-align: center;
+    background-color: rgb(208, 255, 0);
+    margin-bottom: 30px;
+    color: rgb(245, 106, 106);
+    
+}
+.btn{
+    color:rgb(208, 255, 0);
+    background-color:rgb(39, 163, 39);
+}
+footer{
+    padding: 10px 10px 0 10px;
+    background-color: rgb(208, 255, 0);
+    margin-top: 20px
+    
+}
+body{
+    background-color: rgb(247, 238, 238);
+    margin: 10px;
+    
+}
+.row {
+    margin: 20px;
+    margin-right: 10px;
+}
+.column {
+    margin: 20px;
+    margin-right: 10px;
+}
