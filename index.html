@@ -11,41 +11,16 @@
 <title>Guia de Hoteles de Neiva</title>
 
 <body>
+  <div class="navbar navbar-dark bg-primary fixed-top">
+    <a class="navbar-brand" href="#">Hoteles</a>
+  </div>
 
 
-  <!--Te invitamos a poner a prueba tus aprendizajes adquiridos hasta ahora en el curso.
-     Se trata del producto resultante de llevar a cabo las guías prácticas del Módulo 1:
-a. diseñar e implementar ese diseño de un sitio web responsive utilizando NPM,
-b. configurar tu repositorio utilizando Git y Bitbucket e
-c. implementar sistemas de grillas de Bootstrap.
-En tu proyecto deberá verse:
- 1- el archivo .gitignore para evitar hacer seguimiento de los cambios en el directorio 
-node_modules.
- 2- el script dev sobre el package.json que debe inicializar el server lite-server
-las referencias css y js a bootstrap, jquery y popper utilizando referencias a los 
-archivos correspondientes de la carpeta node_modules sobre la página principal (index.html) ,-->
-  <!--3- en el body, un elemento jumbotron con el título de su proyecto.-->
+  
   <div class="jumbotron">
     <h1 ><strong> Guía de Hoteles de Neiva</strong></h1>
   </div>
-  <!-- 4- un container con 3 párrafos utilizando los elementos p y un título con descripción a cada
- uno contando las principales características del producto.
-dentro del container y separado de los párrafos previos, una lista de productos que incluya
- un título, descripción y un botón, esta vez util
-<!- --------------------------------------------------------------------  
-<div class="container">
-    <div class="row">
-      <div class="col-sm">
-        One of three columns
-      </div>
-      <div class="col-sm">
-        two of three columns
-      </div>
-      <div class="col-sm">
-        tree of three columns
-      </div>
-    </div>
-  </div> -->
+  
 <!-- --------------------------------------------------------------------  -->
   <div class="container">
     <div class="row">
@@ -74,82 +49,57 @@ dentro del container y separado de los párrafos previos, una lista de productos
           <p>
             <h3>HOTEL LA GRANJA</h3>
             <p>La mejor atención en el<br> centro de Neiva</p>
-            <button class="btn">Reservar ahora</button>
+            <button class="btn bg-primary align-self-end">Reservar ahora</button>
           </p>
         </div>
         <div class="col-md">
            <p>
               <h3>HOTEL PLAZA</h3>
              <p>Te esperamos en la plaza principal<br> de Neiva</p>
-             <button class=" btn">Reservar ahora</button>
+             <button class=" btn bg-primary align-self-end">Reservar ahora</button>
           </p>
         </div>
         <div class="col-md">
           <p>
             <h3>HOTEL AMBORCO</h3>
             <p>Un lugar paradisiaco <br>en Neiva </p>
-            <button class="btn">Reservar ahora</button>
+            <button class="btn bg-primary align-self-end">Reservar ahora</button>
           </p>
         </div>
       </div>
 
     </div>
-    <!-- 5- el sistema de grillas donde ubicó los productos transformado a flex
- 6- una sección de footer en la página principal que incluye información del comercio, redes
- sociales y algún otro detalle referido al sitio.
- 7- En el caso de la dirección comercial utilizando el componente address
-en el archivo css creado,
- 8-  utiliza estilos que sean replicables para todos los productos 
-del listado principal, de forma tal de cambiar ese diseño en el css y cambien todos los 
-productos?
- 9- las clases de control de alineación para ubicar los elementos del footer a la izquierda, 
-centro y derecha
-Recuerda que esta actividad será evaluada por tus pares y se espera que también lo hagas 
-tú. Por ello, es muy importante que evalúes a conciencia, pensando en que tantos tus 
-compañeros como vos, están queriendo aprender en este curso. Guíate por los criterios de
- corrección que te orientarán en todo el proceso de evaluación.
-
-¡Éxitos!
-
-Review criteriamenos 
-Deberás proporcionar la dirección (URL) del repositorio de código de tu proyecto.
-
-Se evaluará tu entrega en base a los siguientes criterios:
-
-1. Completitud: se evaluará si has realizado la consigna de forma parcial o total.
-
-2. Evidencias de aprendizaje: se evaluará el grado de elaboración propia en cada consigna,
- así como el uso de los contenidos teóricos del módulo en el desarrollo de las respuestas.
-
-Finalmente, habrá un espacio para que tus pares dejen comentarios que enriquezcan la
- corrección y que profundicen en la misma. Esta última sección es opcional.
+    
    
-    xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx-->
+    
       <footer>
-      <div class="container">
-          <div class="d-flex flex-wrap">
-            <div class="col-sm-4 d-flex flex-column">
+       
+        <div class="row">
+
+            <div class="col-sm-4 d-flex flex-column align-items-start">
               <a href="http://www.facebook.com">Facebook</a>
               <a href="http://www.twitter.com">Twitter</a>
               <a href="http://www.instagram.com">Instagram</a>
               <a href="http://www.google.com">Google+</a>
             </div> 
-            <div class="col-sm-4 d-flex flex-column align-items-center"">
+            
+            <div class="col-sm-4">
                 <address>
                     Neiva, Colombia, calle 58 #46-54. Barrio Cándido Leguízamo.
                     +573017106546
                     gerencia@guiahotelesneiva.com.co
                   </address>
             </div>
+
             <div class="col-sm-4 d-flex flex-column align-items-end">
                 <a href="">Nosotros</a>
-                <a href="">Otros servicios</a>
+                <a href="">Servicios</a>
                 <a href="">Contacto</a>
             </div>
-          </div>
-        </div> 
 
-    </footer>
+        </div>
+        
+      </footer>
     <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx-->
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

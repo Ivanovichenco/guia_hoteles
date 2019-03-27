@@ -1,24 +1,24 @@
 .jumbotron {
     text-align: center;
-    background-color: rgb(208, 255, 0);
-    margin-bottom: 30px;
-    color: rgb(245, 106, 106);
+    background-color: rgb(179, 209, 47);
+    margin-top: 65px;
+    color: rgb(14, 10, 10);
     
 }
 .btn{
     color:rgb(208, 255, 0);
-    background-color:rgb(39, 163, 39);
+    background-color:rgb(25, 131, 25);
 }
 footer{
     padding: 10px 10px 0 10px;
-    background-color: rgb(208, 255, 0);
+    background-color: rgb(179, 209, 47);
     margin-top: 20px     
 }
 .container{
     text-align:center
 }
 body{
-    background-color: rgb(240, 237, 96);
+    background-color: rgb(133, 248, 98);
     margin: 10px;
     
 }
