@@ -1,7 +1,7 @@
 .jumbotron {
     text-align: center;
     background-color: rgb(245, 248, 59);
-    margin-top: 10px;
+    margin-top: 50px;
     color: rgb(14, 10, 10);
     
 }
@@ -29,4 +29,7 @@ body{
 .column {
     margin: 20px;
     margin-right: 10px;
+}
+.footer-adres-icon{
+    padding-right: 15px;
 }
