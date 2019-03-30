@@ -2,7 +2,7 @@
     text-align: center;
     background-color: rgb(245, 248, 59);
     margin-top: 50px;
-    color: rgb(14, 10, 10);
+    color: rgb(87, 85, 85);
     
 }
 .btn{
@@ -32,4 +32,13 @@ body{
 }
 .footer-adres-icon{
     padding-right: 15px;
+}
+.breadcrumb{
+    background-color:rgb(245, 248, 59);    
+    
+}
+.card-hotel{
+    flex: 2 200px;
+    padding: 3px 20px 3px 20px;
+
 }

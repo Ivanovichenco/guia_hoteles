@@ -12,6 +12,7 @@
 <title>Guia de Hoteles de Neiva</title>
 
 <body>
+  <!-- insertamos la barra de navegacion-->
     <nav class="navbar navbar-expand-sm navbar-dark bg-primary fixed-top">
         <a class="navbar-brand" href="#">Guia Hoteles Neiva</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -34,13 +35,15 @@
           </ul>
         </div>
       </nav>
-
+<!-- insertamos el jumbotron-->
   <div class="jumbotron">
     <h1 ><strong> Guía de Hoteles de Neiva</strong></h1>
   </div>
   
 <!-- --------------------------------------------------------------------  -->
-  <div class="container">
+ 
+<div class="container">
+    <!-- insertamos el breadcombs--> 
       <nav aria-label="breadcrumb">
           <ol class="breadcrumb">
             <li class="breadcrumb-item active" aria-current="page">Home</li>
@@ -69,26 +72,32 @@
 
       <!-- ------------------------------------------------------- -->
       <div class="d-flex flex-wrap">
-        <div class="col-sm-4">
-          <p>
+        <div class="card-hotel d-flex flex-column justify-content-between">
+          <div>
             <h3>HOTEL LA GRANJA</h3>
             <p>La mejor atención en el<br> centro de Neiva</p>
-            <button class="btn bg-primary align-self-end"><span class="oi oi-account-login footer-adres-icon"></span>Reservar ahora</button>
-          </p>
+          </div>
+          <div>
+            <button class="btn btn-primary btn-reserva "><span class="oi oi-account-login footer-adres-icon"></span>Reservar ahora</button>
+          </div>
         </div>
-        <div class="col-sm-4">
-           <p>
+        <div class="card-hotel d-flex flex-column justify-content-between">
+            <div>
               <h3>HOTEL PLAZA</h3>
-             <p>Te esperamos en la plaza principal<br> de Neiva</p>
-             <button class=" btn bg-primary align-self-end"><span class="oi oi-account-login footer-adres-icon"></span>Reservar ahora</button>
-          </p>
+              <p>Te esperamos en la plaza principal<br> de Neiva</p>
+            </div>
+            <div>
+             <button class="btn btn-primary btn-reserva"><span class="oi oi-account-login footer-adres-icon"></span>Reservar ahora</button>
+            </div>
         </div>
-        <div class="col-sm-4">
-          <p>
-            <h3>HOTEL AMBORCO</h3>
-            <p>Un lugar paradisiaco <br>en Neiva </p>
-            <button class="btn bg-primary align-self-end"><span class="oi oi-account-login footer-adres-icon"></span>Reservar ahora</button>
-          </p>
+        <div class="card-hotel d-flex flex-column justify-content-between">
+            <div>
+              <h3>HOTEL AMBORCO</h3>
+              <p>Un lugar paradisiaco <br>en Neiva </p>
+            </div>
+            <div>
+            <button class="btn btn-primary btn-reserva"><span class="oi oi-account-login footer-adres-icon"></span>Reservar ahora</button>
+            </div>
         </div>
       </div>
 
@@ -109,7 +118,7 @@
             
             <div class="col-sm-4">
                 <address>
-                  <span class="oi oi-home footer-adres-icon"></span>Neiva, Colombia, calle 58 #46-54. Barrio Cándido Leguízamo.<br>
+                  <span class="oi oi-home footer-adres-icon"></span>Neiva, Colombia, calle 58 #46-54.<br> Barrio Cándido Leguízamo.<br>
                   <span class="oi oi-phone footer-adres-icon"></span>+573017106546<br>
                   <button class="btn bg-primary align-self-end"><span class="oi oi-arrow-circle-top footer-adres-icon"></span>Email</button>
                 
