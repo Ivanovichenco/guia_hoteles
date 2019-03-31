@@ -5,21 +5,21 @@
     color: rgb(87, 85, 85);
     
 }
-.btn{
-    color:rgb(208, 255, 0);
-    background-color:rgb(25, 131, 25);
+.btn-reserva{
+    width:100%;
+    border-radius: 2px;
 }
 footer{
     padding: 10px 10px 0 10px;
-    background-color: rgb(245, 248, 59);
+    background-color: yellow;
     margin-top: 20px     
 }
 .container{
-    text-align:center
+   
 }
-body{
-    background-color: rgb(133, 248, 98);
-    margin: 10px;
+.body{
+    
+    margin: 12px;
     
 }
 .row {
@@ -30,18 +30,22 @@ body{
     margin: 20px;
     margin-right: 10px;
 }
-.footer-adres-icon{
+.footer-adress-icon{
     padding-right: 15px;
+    margin-top: 10px;
 }
 .breadcrumb{
     background-color:rgb(245, 248, 59);    
     
 }
 .card-hotel{
-    flex: 2 200px;
-    padding: 3px 20px 3px 20px;
+    flex: 1 200px;
+    margin-top: 2px;
 
 }
-thead{
+.thead{
     color: white;
+}
+.btn{
+    width: 100%;
 }

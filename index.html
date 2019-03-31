@@ -37,7 +37,7 @@
       </nav>
 <!-- insertamos el jumbotron-->
   <div class="jumbotron">
-    <h1 ><strong> Guía de Hoteles de Neiva</strong></h1>
+    <h1 > Guía de Hoteles de Neiva</h1>
   </div>
   
 <!-- --------------------------------------------------------------------  -->
@@ -71,33 +71,38 @@
       </div>
 
       <!-- ------------------------------------------------------- -->
-      <div class="d-flex flex-wrap">
-        <div class="card-hotel d-flex flex-column justify-content-between">
-          <div>
-            <h3>HOTEL LA GRANJA</h3>
-            <p>La mejor atención en el<br> centro de Neiva</p>
+      <div class="d-flex flex-wrap flex-row-reverse">
+        <div class="card card-hotel d-flex flex-column justify-content-between ml-2">
+          <div class="card-body">
+            <h3 class="card-title">HOTEL LA GRANJA</h3>
+            <h4 class="card-subtitle text-muted"> Comodidad y atención</h4>
+            <p class="card-text">La mejor atención en el<br> centro de Neiva</p>
           </div>
           <div>
-            <button class="btn btn-primary btn-reserva "><span class="oi oi-account-login footer-adres-icon"></span>Reservar ahora</button>
+            <button class="btn btn-primary btn-reserva"><span class="oi oi-account-login footer-adres-icon"></span>Reservar ahora</button>
           </div>
         </div>
-        <div class="card-hotel d-flex flex-column justify-content-between">
-            <div>
-              <h3>HOTEL PLAZA</h3>
-              <p>Te esperamos en la plaza principal<br> de Neiva</p>
+
+        <div class="card card-hotel d-flex flex-column justify-content-between ml-2">
+            <div class="card-body">
+              <h3 class="card-title">HOTEL PLAZA</h3>
+              <h4 class="card-subtitle text-muted"> Su bienestar, nuestro trabajo </h4>
+              <p class="card-text">Te esperamos en la plaza principal<br> de Neiva</p>
             </div>
             <div>
              <button class="btn btn-primary btn-reserva"><span class="oi oi-account-login footer-adres-icon"></span>Reservar ahora</button>
             </div>
         </div>
-        <div class="card-hotel d-flex flex-column justify-content-between">
-            <div>
-              <h3>HOTEL AMBORCO</h3>
-              <p>Un lugar paradisiaco <br>en Neiva </p>
+        <div class="card card-hotel d-flex flex-column justify-content-between ml-2">
+            <div class="card-body" bg-color="yellow">
+              <h3 class="card-title" card-title>HOTEL AMBORCO</h3>
+              <h4 class="card-subtitle text-muted">Servimos con elegncia</h4>
+              <p class="card-text">Un lugar paradisiaco <br>en Neiva </p>
             </div>
             <div>
             <button class="btn btn-primary btn-reserva"><span class="oi oi-account-login footer-adres-icon"></span>Reservar ahora</button>
             </div>
+            
         </div>
       </div>
 
@@ -120,8 +125,8 @@
                 <address>
                   <span class="oi oi-home footer-adres-icon"></span>Neiva, Colombia, calle 58 #46-54.<br> Barrio Cándido Leguízamo.<br>
                   <span class="oi oi-phone footer-adres-icon"></span>+573017106546<br>
-                  <button class="btn bg-primary align-self-end"><span class="oi oi-arrow-circle-top footer-adres-icon"></span>Email</button>
-                
+                  <a href="contacto.html" ><button class="btn bg-primary"><span class="oi oi-arrow-circle-top footer-adres-icon"></span>Email</button></a>
+                  <!-- <a href="contacto.html" class="btn btn-primary">Email</a> -->
                   </address>
             </div>
 
