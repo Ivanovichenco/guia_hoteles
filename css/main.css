@@ -11,9 +11,9 @@
     width:100%;
     border-radius: 2px;
 }
-.footer{
+footer{
     padding: 10px 10px 0 10px;
-    background-color: yellow;
+    background-color: rgb(243, 243, 62);
     margin-top: 20px     
 }
 .container{
