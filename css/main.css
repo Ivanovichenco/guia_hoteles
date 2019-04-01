@@ -2,6 +2,8 @@
     text-align: center;
     background-color: rgb(245, 248, 59);
     margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
     color: rgb(87, 85, 85);
     
 }
@@ -9,7 +11,7 @@
     width:100%;
     border-radius: 2px;
 }
-footer{
+.footer{
     padding: 10px 10px 0 10px;
     background-color: yellow;
     margin-top: 20px     
@@ -19,7 +21,8 @@ footer{
 }
 .body{
     
-    margin: 12px;
+    margin-left: 20px;
+    margin-right: 20px;
     
 }
 .row {
@@ -35,7 +38,9 @@ footer{
     margin-top: 10px;
 }
 .breadcrumb{
-    background-color:rgb(245, 248, 59);    
+    background-color:rgb(245, 248, 59);   
+    margin-left: 20px;
+    margin-right: 20px; 
     
 }
 .card-hotel{
