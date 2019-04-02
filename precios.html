@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html>
-
+<!-- Elaborado por Ivan Adolfo Calderon para el curso Bootstrap4 de la U Austral de Argentina-->
 <head>
-
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="node_modules/open-iconic/font/css/open-iconic-bootstrap.min.css">
 </head>
+
 <title>Guia de Hoteles de Neiva</title>
 
 <body>
@@ -47,70 +47,314 @@
       <li class="breadcrumb-item active" aria-current="page"><a href="precios.html">Precios</a></li>
     </ol>
   </nav>
+  
+<!-- pills..................................-->
 
-  <!-- --------------------------------------------------------------------  -->
-  <div class="table-responsive" <span class="oi oi-star">
-    <table class="table">
-      <thead class="bg-primary">
-        <th> Calidad </th>
-        <th> Hotel El Rey</th>
-        <th> Hotel Plaza</th>
-        <th> Hotel Neiva</th>
-        <th> Hotel Bahia</th>
-        <th> Hotel Central</th>
-      </thead>
+  <ul class="nav nav-pills" id="myTab" role="tablist">
+    <li class="nav-item">
+      <a class="nav-link active" id="compara-tab" data-toggle="pill" href="#compara" role="tab" aria-controls="compara" aria-selected="true">
+        Compara
+      </a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" id="tarjetas-tab" data-toggle="pill" href="#tarjetas" role="tab" aria-controls="tarjetas" aria-selected="false">
+        Tarjetas
+      </a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" id="comentarios-tab" data-toggle="pill" href="#comentarios" role="tab" aria-controls="comentarios" aria-selected="false">
+        Comentarios
+      </a>
+    </li>
+  </ul>
 
-      <tbody>
-        <tr>
-          <td><span class="oi oi-star"></span></td>
-          <td>$100</td>
-          <td>$200</td>
-          <td>$300</td>
-          <td>$400</td>
-          <td>$500</td>
-        </tr>
-        <tr>
-          <td><span class="oi oi-star"></span><span class="oi oi-star"></span></td>
-          <td>$200</td>
-          <td>$300</td>
-          <td>$400</td>
-          <td>$500</td>
-          <td>$600</td>
-        </tr>
-        <tr>
-          <td><span class="oi oi-star"></span><span class="oi oi-star"></span><span class="oi oi-star"></span></td>
-          <td>$300</td>
-          <td>$400</td>
-          <td>$500</td>
-          <td>$600</td>
-          <td>$700</td>
-        </tr>
-        <tr>
-          <td><span class="oi oi-star"></span><span class="oi oi-star"></span><span class="oi oi-star"></span><span
-              class="oi oi-star"></span></td>
-          <td>$400</td>
-          <td>$500</td>
-          <td>$600</td>
-          <td>$700</td>
-          <td>$800</td>
-        </tr>
-        <tr>
-          <td><span class="oi oi-star"></span><span class="oi oi-star"></span><span class="oi oi-star"></span><span
-              class="oi oi-star"></span><span class="oi oi-star"></span></td>
-          <td>$500</td>
-          <td>$600</td>
-          <td>$700</td>
-          <td>$800</td>
-          <td>$900</td>
-        </tr>
-      </tbody>
-    </table>
+  <!-- Tab panes -->
+  <div class="tab-content">
+    <div class="tab-pane fade show active" id="compara" role="tabpanel" aria-labelledby="compara-tab">
+      <div class="table-responsive">
+        <table class="table table-striped">
+          <thead class="thead-dark">
+            <th> Calidad </th>
+            <th> Hotel El Rey</th>
+            <th> Hotel Plaza</th>
+            <th> Hotel Neiva</th>
+            <th> Hotel Bahia</th>
+            <th> Hotel Central</th>
+          </thead>
+  
+          <tbody>
+            <tr>
+              <td><span class="oi oi-star"></span></td>
+              <td>$100</td>
+              <td>$200</td>
+              <td>$300</td>
+              <td>$400</td>
+              <td>$500</td>
+            </tr>
+            <tr>
+              <td><span class="oi oi-star"></span><span class="oi oi-star"></span></td>
+              <td>$200</td>
+              <td>$300</td>
+              <td>$400</td>
+              <td>$500</td>
+              <td>$600</td>
+            </tr>
+            <tr>
+              <td><span class="oi oi-star"></span><span class="oi oi-star"></span><span class="oi oi-star"></span></td>
+              <td>$300</td>
+              <td>$400</td>
+              <td>$500</td>
+              <td>$600</td>
+              <td>$700</td>
+            </tr>
+            <tr>
+              <td><span class="oi oi-star"></span><span class="oi oi-star"></span><span class="oi oi-star"></span><span
+                  class="oi oi-star"></span></td>
+              <td>$400</td>
+              <td>$500</td>
+              <td>$600</td>
+              <td>$700</td>
+              <td>$800</td>
+            </tr>
+            <tr>
+              <td><span class="oi oi-star"></span><span class="oi oi-star"></span><span class="oi oi-star"></span><span
+                  class="oi oi-star"></span><span class="oi oi-star"></span></td>
+              <td>$500</td>
+              <td>$600</td>
+              <td>$700</td>
+              <td>$800</td>
+              <td>$900</td>
+            </tr>
+            <tr>
+                <td><span class="oi oi-star"></span><span class="oi oi-star"></span><span class="oi oi-star"></span><span
+                    class="oi oi-star"></span><span class="oi oi-star"></span></td>
+                <td>$500</td>
+                <td>$600</td>
+                <td>$700</td>
+                <td>$800</td>
+                <td>$900</td>
+              </tr>
+            
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div class="tab-pane" id="tarjetas" role="tabpanel" aria-labelledby="tarjetas-tab">
+      <!-- Accordion -->
+      <div class="accordion" id="accordionTarjetas">
+        <!-- Elemento 1 - Accordion -->
+        <div class="card">
+          <div class="card-header" id="headingOne">
+            <h2 class="mb-0">
+              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseBasica"
+                aria-expanded="true" aria-controls="collapseBasica">
+                Tarjeta0
+              </button>
+            </h2>
+          </div>
+  
+          <div id="collapseBasica" class="collapse" aria-labelledby="headingOne" data-parent="#accordionTarjetas">
+            <div class="card-body">
+              Contràriament a la creença popular, Lorem Ipsum no és només text aleatori. Té les seves arrels en una peça
+              clàssica de la literatura llatina del 45 aC, és a dir, de fa 2000 anys. Richard McClintock,
+            </div>
+          </div>
+        </div>
+        <!-- Elemento 2 - Accordion -->
+        <div class="card">
+          <div class="card-header" id="headingTwo">
+            <h2 class="mb-0">
+              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseVip"
+                aria-expanded="false" aria-controls="collapseVip">
+                Tarjeta1
+              </button>
+            </h2>
+          </div>
+          <div id="collapseVip" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionTarjetas">
+            <div class="card-body">
+              Contràriament a la creença popular, Lorem Ipsum no és només text aleatori. Té les seves arrels en una
+              peça clàssica de la literatura llatina del 45 aC, és a dir, de fa 2000 anys. Richard McClintock, </div>
+          </div>
+        </div>
+        <!-- Elemento 3 - Accordion -->
+        <div class="card">
+          <div class="card-header" id="headingTwo">
+            <h2 class="mb-0">
+              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseVip"
+                aria-expanded="false" aria-controls="collapseVip">
+                Tarjeta1
+              </button>
+            </h2>
+          </div>
+          <div id="collapseVip" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionTarjetas">
+            <div class="card-body">
+              Contràriament a la creença popular, Lorem Ipsum no és només text aleatori. Té les seves arrels en una
+              peça clàssica de la literatura llatina del 45 aC, és a dir, de fa 2000 anys. Richard McClintock, </div>
+          </div>
+        </div>
+  
+        <div class="card">
+          <div class="card-header" id="headingThree">
+            <h2 class="mb-0">
+              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseBlack"
+                aria-expanded="false" aria-controls="collapseBlack">
+                Tarjeta2
+              </button>
+            </h2>
+          </div>
+          <div id="collapseBlack" class="collapse" aria-labelledby="headingThree" data-parent="#accordionTarjetas">
+            <div class="card-body">
+              Contràriament a la creença popular, Lorem Ipsum no és només text aleatori. Té les seves arrels en una
+              peça clàssica de la literatura llatina del 45 aC, és a dir, de fa 2000 anys. Richard McClintock,a.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <div class="tab-pane" id="comentarios" role="tabpanel" aria-labelledby="comentarios-tab">
+      <span>Comentarios</span>
+      <p>Contràriament a la creença popular, Lorem Ipsum no és només text aleatori. Té les seves arrels en una
+        peça clàssica de la literatura llatina del 45 aC, és a dir, de fa 2000 anys. Richard McClintock,
+      </p>
+      <p>Contràriament a la creença popular, Lorem Ipsum no és només text aleatori. Té les seves arrels en una peça
+        clàssica de la literatura llatina del 45 aC, és a dir, de fa 2000 anys. Richard McClintock,
+      </p>
+      <p>Contràriament a la creença popular, Lorem Ipsum no és només text aleatori. Té les seves arrels en una
+        peça clàssica de la literatura llatina del 45 aC, és a dir, de fa 2000 anys. Richard McClintock,
+      </p>
+    </div>
   </div>
   </div>
 
+<footer>
+
+  <div class="row">
+    <div class="col-sm-4 d-flex flex-column align-items-start">
+      <a href="http://www.facebook.com">Facebook</a>
+      <a href="http://www.twitter.com">Twitter</a>
+      <a href="http://www.instagram.com">Instagram</a>
+      <a href="http://www.google.com">Google+</a>
+      <br>
+    </div>
+    <div class="col-sm-4">
+      <address>
+          <br>
+          <h3>Oficina Central</h3>
+        <span class="oi oi-home footer-adres-icon"></span>Neiva, Colombia, calle 58 #46-54.<br> Barrio Cándido
+        Leguízamo.<br>
+        <span class="oi oi-phone footer-adres-icon"></span>+573017106546<br>
+        <a href="contacto.html"><button class="btn bg-primary"><span
+              class="oi oi-arrow-circle-top footer-adres-icon"></span>-Email</button></a>
+        <!-- <a href="contacto.html" class="btn btn-primary">Email</a> -->
+      </address>
+    </div>
+
+    <div class="col-sm-4 d-flex flex-column align-items-end">
+        <br>
+        
+      <a href="abaut.html">Nosotros</a>
+      <a href="precios.html">Precios</a>
+      <a href="contacto.html">Contacto</a>
+      <a href="contacto.html">Condiciones</a>
+    </div>
+  </div>
+
+<!-- ---------------------,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,----------------------------------->
+<!-- Nav tabs 
+<ul class="nav nav-pills" id="myTab" role="tablist">
+  <li class="nav-item">
+    <a class="nav-link active" id="comparacion-tab" data-toggle="pill" href="#comparacion" role="tab" aria-controls="comparacion" aria-selected="true">
+      Comparación
+    </a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" id="tarjetas-tab" data-toggle="pill" href="#tarjetas" role="tab" aria-controls="tarjetas" aria-selected="false">
+      Tarjetas
+    </a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" id="comentarios-tab" data-toggle="pill" href="#comentarios" role="tab" aria-controls="comentarios" aria-selected="false">
+      Comentarios
+    </a>
+  </li>
+</ul>
+  -----------------------------------------------------------
+  <div class="tab-content">
+    <div class="tab-pane fade show active" id="comparacion" role="tabpanel" aria-labelledby="comparacion-tab">
+      <div class="table-responsive">
+        <table class="table table-striped">
+ ---tabla comparativa-----------------------------------------------------------
+ 
+ 
+  <div class="tab-content" id="myContent">
+    <div class="tab-pane fade show active" id="compara" role="tabpanel" aria-labelledby="compara-tab">
+      <div class="table-responsive">
+        <table class="table-responsive">
+          <thead class="bg-primary">
+            <th> Calidad </th>
+            <th> Hotel El Rey</th>
+            <th> Hotel Plaza</th>
+            <th> Hotel Neiva</th>
+            <th> Hotel Bahia</th>
+            <th> Hotel Central</th>
+          </thead>
+  
+          <tbody>
+            <tr>
+              <td><span class="oi oi-star"></span></td>
+              <td>$100</td>
+              <td>$200</td>
+              <td>$300</td>
+              <td>$400</td>
+              <td>$500</td>
+            </tr>
+            <tr>
+              <td><span class="oi oi-star"></span><span class="oi oi-star"></span></td>
+              <td>$200</td>
+              <td>$300</td>
+              <td>$400</td>
+              <td>$500</td>
+              <td>$600</td>
+            </tr>
+            <tr>
+              <td><span class="oi oi-star"></span><span class="oi oi-star"></span><span class="oi oi-star"></span></td>
+              <td>$300</td>
+              <td>$400</td>
+              <td>$500</td>
+              <td>$600</td>
+              <td>$700</td>
+            </tr>
+            <tr>
+              <td><span class="oi oi-star"></span><span class="oi oi-star"></span><span class="oi oi-star"></span><span
+                  class="oi oi-star"></span></td>
+              <td>$400</td>
+              <td>$500</td>
+              <td>$600</td>
+              <td>$700</td>
+              <td>$800</td>
+            </tr>
+            <tr>
+              <td><span class="oi oi-star"></span><span class="oi oi-star"></span><span class="oi oi-star"></span><span
+                  class="oi oi-star"></span><span class="oi oi-star"></span></td>
+              <td>$500</td>
+              <td>$600</td>
+              <td>$700</td>
+              <td>$800</td>
+              <td>$900</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+  
+
+ 
+<div class="tab-pane fade" id="tarjetas" role="tabpanel" aria-labelledby="tarjetas-tab">
   <div class="d-flex justify-content-center">
-    <div class="card" stlile="width:18rem;">
-      <div class="card-header">
+    <div class="card" style="width:18rem; ">
+      <div class="card-header" style="background-color: blue color:white;">
         Tarjetas aceptadas:
       </div>
       <ul class="list-group list-group-flush">
@@ -122,6 +366,7 @@
 
 
     </div>
+  </div>
 
 
   </div>
@@ -143,20 +388,23 @@
           <span class="oi oi-phone footer-adres-icon"></span>+573017106546<br>
           <a href="contacto.html"><button class="btn bg-primary"><span
                 class="oi oi-arrow-circle-top footer-adres-icon"></span>Email</button></a>
-          <!-- <a href="contacto.html" class="btn btn-primary">Email</a> -->
+          
         </address>
       </div>
 
       <div class="col-sm-4 d-flex flex-column align-items-end">
+          <br>
+          <a href="index.html">Home</a>
         <a href="abaut.html">Nosotros</a>
-        <a href="precios.html">Precioss</a>
+        
         <a href="contacto.html">Contacto</a>
+        
       </div>
 
     </div>
 
   </footer>
-  <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx-->
+  xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx-->
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="node_modules/jquery/dist/jquery.min.js"></script>
