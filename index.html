@@ -80,6 +80,10 @@
             <p class="card-text">La mejor atención en el<br> centro de Neiva</p>
           </div>
           <div>
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@getbootstrap">Contacto</button>
+            
+          </div>
+          <div>
             <button class="btn btn-primary btn-reserva"><span
                 class="oi oi-account-login footer-adres-icon"></span>Reservar ahora</button>
           </div>
@@ -91,6 +95,10 @@
             <h3 class="card-title">HOTEL PLAZA</h3>
             <h4 class="card-subtitle text-muted"> Su bienestar, nuestro trabajo </h4>
             <p class="card-text">Te esperamos en la plaza principal<br> de Neiva</p>
+          </div>
+          <div>
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@getbootstrap">Contacto</button>
+            
           </div>
           <div>
             <button class="btn btn-primary btn-reserva"><span
@@ -105,12 +113,51 @@
             <p class="card-text">Un lugar paradisiaco <br>en Neiva </p>
           </div>
           <div>
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@getbootstrap">Contacto</button>
+            
+          </div>
+         
+          <div>
             <button class="btn btn-primary btn-reserva"><span
                 class="oi oi-account-login footer-adres-icon"></span>Reservar ahora</button>
           </div>
         </div>
       </div>
     </div>
+    <!-- ------------------------------------------------------------------------------>
+    <!-- Modals------------------------------------------------------------------------------>
+    
+
+
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Mensaje</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="form-group">
+            <label for="recipient-name" class="col-form-label">Email:</label>
+            <input type="text" class="form-control" id="recipient-name">
+          </div>
+          <div class="form-group">
+            <label for="message-text" class="col-form-label">Mensaje:</label>
+            <textarea class="form-control" id="message-text"></textarea>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Send message</button>
+      </div>
+    </div>
+  </div>
+</div>
+    <!-- ------------------------------------------------------------------------------>
 
     <footer>
 
@@ -129,9 +176,9 @@
             <span class="oi oi-home footer-adres-icon"></span>Neiva, Colombia, calle 58 #46-54.<br> Barrio Cándido
             Leguízamo.<br>
             <span class="oi oi-phone footer-adres-icon"></span>+573017106546<br>
-            <a href="contacto.html"><button class="btn bg-primary"><span
+           <!-- <a href="contacto.html"><button class="btn bg-primary"><span
                   class="oi oi-arrow-circle-top footer-adres-icon"></span>-Email</button></a>
-            <!-- <a href="contacto.html" class="btn btn-primary">Email</a> -->
+             <a href="contacto.html" class="btn btn-primary">Email</a> -->
           </address>
         </div>
   
