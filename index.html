@@ -291,9 +291,14 @@
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
    <!--tooltip xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx-->
     
-   <script>
-    $(function () {$('[data-toggle="tooltip"]').tooltip(); });
-    $(function () {$('[data-toggle="popover"]').popover(); });
+  <script>
+    $(function () {
+
+      $('[data-toggle="tooltip"]').tooltip();
+
+      $('[data-toggle="popover"]').popover();
+      $('.carousel').carousel({ interval: 2000 });
+    });
   </script>
   
     
