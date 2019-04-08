@@ -2,17 +2,17 @@
 <html>
 
 <head>
-  <!-- Elaborado por Ivan Adolfo Calderon para el curso Bootstrap4 de la U Austral de Argentina-->
+  <!-- Elaborado por Ivan Adolfo Calderon para el curso Bootstrap4 de la U Austral de Argentina-Coursera-->
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="node_modules/open-iconic/font/css/open-iconic-bootstrap.min.css">
 </head>
 <title>Guia de Hoteles de Neiva</title>
 
-<body>
+<body background="img/cielo.jpg">
   <!-- insertamos la barra de navegacion-->
   <nav class="navbar navbar-expand-sm navbar-dark bg-primary fixed-top">
     <a class="navbar-brand" href="#">Guia Hoteles Neiva</a>
@@ -33,6 +33,9 @@
         </li>
         <li class="nav-item">
           <a class="nav-link " href="contacto.html">Contacto</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="prueba.html">Prueba</a>
         </li>
       </ul>
     </div>
@@ -64,7 +67,7 @@
     </ol>
     <div class="carousel-inner">
       <div class="carousel-item active">
-          <img src="img/cama.jpg" class="d-block w-100" alt="Slider1">
+        <img src="img/cama.jpg" class="d-block w-100" alt="Slider1">
       </div>
       <div class="carousel-item">
         <img src="img/comida.jpg" class="d-block w-100" alt="Slider2">
@@ -73,23 +76,23 @@
         <img src="img/cocina2.jpg" class="d-block w-100" alt="Slider3">
       </div>
       <div class="carousel-item">
-          <img src="img/comedor.jpg" class="d-block w-100" alt="Slider4">
-        </div>
-        <div class="carousel-item">
-          <img src="img/cocina.jpg" class="d-block w-100" alt="Slider5">
-        </div>
-        <div class="carousel-item">
-          <img src="img/comida4.jpg" class="d-block w-100" alt="Slider6">
-        </div>
-        <div class="carousel-item">
-            <img src="img/camas.jpg" class="d-block w-100" alt="Slider7">
-          </div>
-          <div class="carousel-item">
-            <img src="img/panoramica.jpg" class="d-block w-100" alt="Slider8">
-          </div>
-          <div class="carousel-item">
-            <img src="img/comida.jpg" class="d-block w-100" alt="Slider9">
-          </div>
+        <img src="img/comedor.jpg" class="d-block w-100" alt="Slider4">
+      </div>
+      <div class="carousel-item">
+        <img src="img/cocina.jpg" class="d-block w-100" alt="Slider5">
+      </div>
+      <div class="carousel-item">
+        <img src="img/comida4.jpg" class="d-block w-100" alt="Slider6">
+      </div>
+      <div class="carousel-item">
+        <img src="img/camas.jpg" class="d-block w-100" alt="Slider7">
+      </div>
+      <div class="carousel-item">
+        <img src="img/panoramica.jpg" class="d-block w-100" alt="Slider8">
+      </div>
+      <div class="carousel-item">
+        <img src="img/comida.jpg" class="d-block w-100" alt="Slider9">
+      </div>
     </div>
     <a class="carousel-control-prev" href="#carouselIndex" role="button" data-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -99,10 +102,10 @@
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
       <span class="sr-only">Siguiente</span>
     </a>
-  </div>
+    </div>
 
-    <!--carousel-->
-    <!-- Collapse -->
+    <!--fincarousel-->
+    <!-- Collapse parte I-->
     <div class="d-flex">
       <div class="col">
         <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#asifunciona" aria-expanded="false" aria-controls="asifunciona">¿Como funciona?</button>
@@ -114,7 +117,7 @@
         <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#pagar" aria-expanded="false" aria-controls="pagar">¿Como pagar?</button>
       </div>
     </div>
-<!--collapse-->
+<!--collapse parte II-->
     <div class="d-flex">
       <div class="col">
         <div class="collapse multi-collapse contenido-collapse" id="asifunciona">
@@ -134,30 +137,9 @@
     </div>
 
     <hr>
-    <!--collapse-->
+    <!--collapse Fin--> 
 
-    <!--<img src="img/camas.jpg" class="img-fluid" alt="Resonsive img-fluid ">
-    <div class="d-flex flex-wrap">
-      <div class="col-sm-4">
-        <p>
-          <h2>Como funciona?</h2>
-          <p>Elige el hotel de tu prefererncia</p>
-        </p>
-      </div>
-      <div class="col-sm-4">
-        <p>
-          <h2>Como reservar?</h2>
-          <p>Aquí haz tu reserva con tus datos</p>
-        </p>
-      </div>
-      <div class="col-sm-4">
-        <p>
-          <h2>Como pago?</h2>
-          <p>Usa Paypal o tu tarjeta de crédito o débito </p>
-        </p>
-      </div>
-     
-     ------------------------------------------------------- -->
+     <!-----Hoteles-------------------------------------------------- -->
       <div class="d-flex flex-wrap flex-row-reverse">
         <div class="card card-hotel d-flex flex-column justify-content-between ml-2">
           <div class="card-body">
@@ -166,14 +148,14 @@
             <h4 class="card-subtitle text-muted"> Comodidad y atención</h4>
             <p class="card-text">La mejor atención en el<br> centro de Neiva</p>
           </div>
+           <!-- boton de disparp modal-->
           <div>
-              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@getbootstrap">Contacto</button>
-            
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#contacto"
+            id="contactoBtn">Contacto</button>
           </div>
+
+           <!--Botn de reserva1 /sin funcion-->
           <div>
-            <!-- <button type="button" class="btn btn-lg btn-danger" data-toggle="popover" 
-              title="Popover title" data-content="And here's some amazing content. It's very engaging.
-               Right?">Click to toggle popover</button>  -->
             <button class="btn btn-primary btn-reserva"><span
                 class="oi oi-account-login footer-adres-icon"></span>Reservar ahora</button>
           </div>
@@ -186,10 +168,13 @@
             <h4 class="card-subtitle text-muted"> Su bienestar, nuestro trabajo </h4>
             <p class="card-text">Te esperamos en la plaza principal<br> de Neiva</p>
           </div>
+           <!-- boton de disparp modal-->
           <div>
-              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@getbootstrap">Contacto</button>
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#contacto"
+            id="contactoBtn">Contacto</button>
             
           </div>
+          <!--Botn de reserva2 /sin funcion-->
           <div>
             <button class="btn btn-primary btn-reserva"><span
                 class="oi oi-account-login footer-adres-icon"></span>Reservar ahora</button>
@@ -202,11 +187,13 @@
             <h4 class="card-subtitle text-muted">Servimos con elegancia</h4>
             <p class="card-text">Un lugar paradisiaco <br>en Neiva </p>
           </div>
-          <div>
-              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@getbootstrap">Contacto</button>
-            
-          </div>
          
+          <!-- boton de disparo modal-->
+          <div>
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#contacto"
+            id="contactoBtn">Contacto</button>              
+          </div>
+         <!--Botn de reserva3 /sin funcion-->
           <div>
             <button class="btn btn-primary btn-reserva"><span
                 class="oi oi-account-login footer-adres-icon"></span>Reservar ahora</button>
@@ -214,40 +201,38 @@
         </div>
       </div>
     </div>
+     <!-- Fin Hoteles-->
     <!-- ------------------------------------------------------------------------------>
     <!-- Modals------------------------------------------------------------------------------>
     
-
-
-<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Mensaje</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <form>
-          <div class="form-group">
-            <label for="recipient-name" class="col-form-label">Email:</label>
-            <input type="text" class="form-control" id="recipient-name">
+    <div class="modal fade" id="contacto" tabindex="-1" role="dialog" aria-labelledby="contactoModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="contactoModalLabel">Contacto</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
           </div>
-          <div class="form-group">
-            <label for="message-text" class="col-form-label">Mensaje:</label>
-            <textarea class="form-control" id="message-text"></textarea>
+          <div class="modal-body">
+            <div class="form-group">
+              <label for="recipient-name" class="col-form-label">Email:</label>
+              <input type="email" class="form-control" id="recipient-name">
+            </div>
+            <div class="form-group">
+              <label for="message-text" class="col-form-label">Mensaje:</label>
+              <textarea class="form-control" id="message-text"></textarea>
+            </div>
           </div>
-        </form>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Send message</button>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary">Enviar</button>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-</div>
-    <!-- ------------------------------------------------------------------------------>
+    
+    <!-- fin Modals------------------------------------------------------------------------------>
 
     <footer>
 
@@ -283,26 +268,15 @@
       </div>
 
     </footer>
-    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx-->
+    <!-- --------------------------------------------------------------->
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script src="node_modules/popper.js/dist/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-   <!--tooltip xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx-->
+    <script src="javascripts/index.js"></script>
+   
     
-  <script>
-    $(function () {
-
-      $('[data-toggle="tooltip"]').tooltip();
-
-      $('[data-toggle="popover"]').popover();
-      $('.carousel').carousel({ interval: 2000 });
-    });
-  </script>
-  
-    
-
 </body>
 
 </html>
