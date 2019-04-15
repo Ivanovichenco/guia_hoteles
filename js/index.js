@@ -1,3 +1,5 @@
+
+
 $(function(){
     $("[data-toggle='tooltip']").tooltip();
     $('[data-toggle="popover"]').popover();
@@ -27,3 +29,5 @@ $(function(){
       console.log('El modal se ocultó');
     });
 });
+
+
